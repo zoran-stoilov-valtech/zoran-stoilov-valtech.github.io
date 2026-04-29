@@ -1,0 +1,19 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "9SM4BRMYZ2.com.example.deeplinking"
+                ],
+                "components": [
+                    {
+                        "/": "/correctPage",
+                        "?": {
+                            "correctParam": "*"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
