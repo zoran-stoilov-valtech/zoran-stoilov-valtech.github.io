@@ -8,9 +8,13 @@
                 "components": [
                     {
                         "/": "/correctPage",
-                        "?": {
-                            "correctParam": "*"
-                        }
+                        "?": { "correctParam": "?*" }, 
+                        "comment": "Match only if correctParam has at least one character"
+                    },
+                    {
+                        "/": "/correctPage",
+                        "exclude": true,
+                        "comment": "Exclude the base path if the query param above didn't match"
                     }
                 ]
             }
