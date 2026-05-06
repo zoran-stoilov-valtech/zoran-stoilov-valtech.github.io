@@ -29,7 +29,7 @@
       "namespace": "android_app",
       "package_name": "com.easyjet.travel.android.dev",
       "sha256_cert_fingerprints": ["94:8D:D2:C4:92:85:2D:72:76:91:A5:70:37:1D:6E:06:82:70:10:F9:C6:83:F8:6A:BC:60:71:B4:D6:8C:D5:27"]
-    }
+    },
     "relation_extensions": {
       "delegate_permission/common.handle_all_urls": {
         "dynamic_app_link_components": [
