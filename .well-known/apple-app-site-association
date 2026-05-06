@@ -17,6 +17,23 @@
                         "comment": "Exclude the base path if the query param above didn't match"
                     }
                 ]
+            },
+            {
+                "appIDs": [
+                    "V66X9FY4WQ.com.easyjet.travel.iphone.dev"
+                ],
+                "components": [
+                    {
+                        "/": "/..",
+                        "?": { "correctParam": "2" }, 
+                        "comment": "Match only if correctParam has value 2"
+                    },
+                    {
+                        "/": "/..",
+                        "exclude": true,
+                        "comment": "Exclude the base path if the query param above didn't match"
+                    }
+                ]
             }
         ]
     }
