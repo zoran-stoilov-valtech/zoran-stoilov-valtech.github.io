@@ -24,12 +24,12 @@
                 ],
                 "components": [
                     {
-                        "/": "/..",
+                        "/": "/??",
                         "?": { "correctParam": "2" }, 
                         "comment": "Match only if correctParam has value 2"
                     },
                     {
-                        "/": "/..",
+                        "/": "/??",
                         "exclude": true,
                         "comment": "Exclude the base path if the query param above didn't match"
                     }
