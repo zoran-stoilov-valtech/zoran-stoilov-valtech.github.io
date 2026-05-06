@@ -34,13 +34,13 @@
       "delegate_permission/common.handle_all_urls": {
         "dynamic_app_link_components": [
           {
-            "/": "/en",
+            "/": "/..",
             "?": {
               "correctParam": "2"
             }
           },
           {
-            "/": "/en",
+            "/": "/..",
             "exclude": true
           }
         ]
