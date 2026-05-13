@@ -20,7 +20,8 @@
             },
             {
                 "appIDs": [
-                    "V66X9FY4WQ.com.easyjet.travel.iphone.dev"
+                    "V66X9FY4WQ.com.easyjet.travel.iphone.dev",
+                    "V66X9FY4WQ.com.easyjet.travel.iphone.qa"
                 ],
                 "components": [
                     {
