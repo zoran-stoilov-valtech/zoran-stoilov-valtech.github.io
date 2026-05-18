@@ -25,14 +25,14 @@
                 ],
                 "components": [
                     {
-                        "/": "/??",
-                        "?": { "correctParam": "2" }, 
-                        "comment": "Match only if correctParam has value 2"
+                        "/": "/??/home",
+                        "?": { "accntmdl": "7" }, 
+                        "comment": "Match only if accntmdl has value 7"
                     },
                     {
-                        "/": "/??",
+                        "/": "/??/home",
                         "exclude": true,
-                        "comment": "Exclude the base path if the query param above didn't match"
+                        "comment": "Exclude the home path if the query param above didn't match"
                     }
                 ]
             }
